@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		EFA023AC24A55BB6008B9456 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA023AB24A55BB6008B9456 /* main.swift */; };
+		EFA1E76624AE8F75005F6CB0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA1E76524AE8F75005F6CB0 /* main.swift */; };
 		EFEFAEF02499944B00CFBA67 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEFAEEF2499944B00CFBA67 /* main.swift */; };
 		EFEFAEFD249ABF1800CFBA67 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEFAEFC249ABF1800CFBA67 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		EFA023A724A55BB6008B9456 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EFA1E76124AE8F75005F6CB0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -45,6 +55,8 @@
 /* Begin PBXFileReference section */
 		EFA023A924A55BB6008B9456 /* Array Manupulation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Array Manupulation"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA023AB24A55BB6008B9456 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EFA1E76324AE8F75005F6CB0 /* Arranging Coins */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Arranging Coins"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA1E76524AE8F75005F6CB0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EFEFAEEC2499944B00CFBA67 /* SwiftAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFEFAEEF2499944B00CFBA67 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EFEFAEFA249ABF1700CFBA67 /* Sparse Array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Sparse Array"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +65,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		EFA023A624A55BB6008B9456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA1E76024AE8F75005F6CB0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,12 +103,21 @@
 			path = "Array Manipulation";
 			sourceTree = "<group>";
 		};
+		EFA1E76424AE8F75005F6CB0 /* Arranging Coins */ = {
+			isa = PBXGroup;
+			children = (
+				EFA1E76524AE8F75005F6CB0 /* main.swift */,
+			);
+			path = "Arranging Coins";
+			sourceTree = "<group>";
+		};
 		EFEFAEE32499944B00CFBA67 = {
 			isa = PBXGroup;
 			children = (
 				EFEFAEEE2499944B00CFBA67 /* How to Take Input From Command Line */,
 				EFEFAEFB249ABF1700CFBA67 /* Sparse Array */,
 				EFA023AA24A55BB6008B9456 /* Array Manipulation */,
+				EFA1E76424AE8F75005F6CB0 /* Arranging Coins */,
 				EFEFAEED2499944B00CFBA67 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,6 +128,7 @@
 				EFEFAEEC2499944B00CFBA67 /* SwiftAlgorithms */,
 				EFEFAEFA249ABF1700CFBA67 /* Sparse Array */,
 				EFA023A924A55BB6008B9456 /* Array Manupulation */,
+				EFA1E76324AE8F75005F6CB0 /* Arranging Coins */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,6 +167,23 @@
 			name = "Array Manupulation";
 			productName = "Array Manupulation";
 			productReference = EFA023A924A55BB6008B9456 /* Array Manupulation */;
+			productType = "com.apple.product-type.tool";
+		};
+		EFA1E76224AE8F75005F6CB0 /* Arranging Coins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA1E76924AE8F75005F6CB0 /* Build configuration list for PBXNativeTarget "Arranging Coins" */;
+			buildPhases = (
+				EFA1E75F24AE8F75005F6CB0 /* Sources */,
+				EFA1E76024AE8F75005F6CB0 /* Frameworks */,
+				EFA1E76124AE8F75005F6CB0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Arranging Coins";
+			productName = "Arranging Coins";
+			productReference = EFA1E76324AE8F75005F6CB0 /* Arranging Coins */;
 			productType = "com.apple.product-type.tool";
 		};
 		EFEFAEEB2499944B00CFBA67 /* SwiftAlgorithms */ = {
@@ -180,12 +226,15 @@
 		EFEFAEE42499944B00CFBA67 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1130;
+				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Soumya Jain";
 				TargetAttributes = {
 					EFA023A824A55BB6008B9456 = {
 						CreatedOnToolsVersion = 11.3.1;
+					};
+					EFA1E76224AE8F75005F6CB0 = {
+						CreatedOnToolsVersion = 12.0;
 					};
 					EFEFAEEB2499944B00CFBA67 = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -211,6 +260,7 @@
 				EFEFAEEB2499944B00CFBA67 /* SwiftAlgorithms */,
 				EFEFAEF9249ABF1700CFBA67 /* Sparse Array */,
 				EFA023A824A55BB6008B9456 /* Array Manupulation */,
+				EFA1E76224AE8F75005F6CB0 /* Arranging Coins */,
 			);
 		};
 /* End PBXProject section */
@@ -221,6 +271,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFA023AC24A55BB6008B9456 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA1E75F24AE8F75005F6CB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA1E76624AE8F75005F6CB0 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +313,26 @@
 		EFA023AE24A55BB6008B9456 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EFA1E76724AE8F75005F6CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EFA1E76824AE8F75005F6CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -418,6 +496,15 @@
 			buildConfigurations = (
 				EFA023AD24A55BB6008B9456 /* Debug */,
 				EFA023AE24A55BB6008B9456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA1E76924AE8F75005F6CB0 /* Build configuration list for PBXNativeTarget "Arranging Coins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA1E76724AE8F75005F6CB0 /* Debug */,
+				EFA1E76824AE8F75005F6CB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
