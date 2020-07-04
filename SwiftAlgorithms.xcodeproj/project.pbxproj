@@ -10,6 +10,7 @@
 		EFA023AC24A55BB6008B9456 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA023AB24A55BB6008B9456 /* main.swift */; };
 		EFA1E76624AE8F75005F6CB0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA1E76524AE8F75005F6CB0 /* main.swift */; };
 		EFA1E77D24B14445005F6CB0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA1E77C24B14445005F6CB0 /* main.swift */; };
+		EFA1E78824B14583005F6CB0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA1E78724B14583005F6CB0 /* main.swift */; };
 		EFEFAEF02499944B00CFBA67 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEFAEEF2499944B00CFBA67 /* main.swift */; };
 		EFEFAEFD249ABF1800CFBA67 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEFAEFC249ABF1800CFBA67 /* main.swift */; };
 /* End PBXBuildFile section */
@@ -34,6 +35,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		EFA1E77824B14445005F6CB0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EFA1E78324B14583005F6CB0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -69,6 +79,8 @@
 		EFA1E76524AE8F75005F6CB0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EFA1E77A24B14445005F6CB0 /* Binary Tree Level Order Traversal II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Binary Tree Level Order Traversal II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA1E77C24B14445005F6CB0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EFA1E78524B14583005F6CB0 /* Prison Cells After N Days */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Prison Cells After N Days"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA1E78724B14583005F6CB0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EFEFAEEC2499944B00CFBA67 /* SwiftAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFEFAEEF2499944B00CFBA67 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EFEFAEFA249ABF1700CFBA67 /* Sparse Array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Sparse Array"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +103,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EFA1E77724B14445005F6CB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA1E78224B14583005F6CB0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -138,6 +157,14 @@
 			path = "Binary Tree Level Order Traversal II";
 			sourceTree = "<group>";
 		};
+		EFA1E78624B14583005F6CB0 /* Prison Cells After N Days */ = {
+			isa = PBXGroup;
+			children = (
+				EFA1E78724B14583005F6CB0 /* main.swift */,
+			);
+			path = "Prison Cells After N Days";
+			sourceTree = "<group>";
+		};
 		EFEFAEE32499944B00CFBA67 = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +173,7 @@
 				EFA023AA24A55BB6008B9456 /* Array Manipulation */,
 				EFA1E76424AE8F75005F6CB0 /* Arranging Coins */,
 				EFA1E77B24B14445005F6CB0 /* Binary Tree Level Order Traversal II */,
+				EFA1E78624B14583005F6CB0 /* Prison Cells After N Days */,
 				EFEFAEED2499944B00CFBA67 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -158,6 +186,7 @@
 				EFA023A924A55BB6008B9456 /* Array Manupulation */,
 				EFA1E76324AE8F75005F6CB0 /* Arranging Coins */,
 				EFA1E77A24B14445005F6CB0 /* Binary Tree Level Order Traversal II */,
+				EFA1E78524B14583005F6CB0 /* Prison Cells After N Days */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -232,6 +261,23 @@
 			productReference = EFA1E77A24B14445005F6CB0 /* Binary Tree Level Order Traversal II */;
 			productType = "com.apple.product-type.tool";
 		};
+		EFA1E78424B14583005F6CB0 /* Prison Cells After N Days */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA1E78924B14583005F6CB0 /* Build configuration list for PBXNativeTarget "Prison Cells After N Days" */;
+			buildPhases = (
+				EFA1E78124B14583005F6CB0 /* Sources */,
+				EFA1E78224B14583005F6CB0 /* Frameworks */,
+				EFA1E78324B14583005F6CB0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prison Cells After N Days";
+			productName = "Prison Cells After N Days";
+			productReference = EFA1E78524B14583005F6CB0 /* Prison Cells After N Days */;
+			productType = "com.apple.product-type.tool";
+		};
 		EFEFAEEB2499944B00CFBA67 /* SwiftAlgorithms */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFEFAEF32499944B00CFBA67 /* Build configuration list for PBXNativeTarget "SwiftAlgorithms" */;
@@ -285,6 +331,9 @@
 					EFA1E77924B14445005F6CB0 = {
 						CreatedOnToolsVersion = 12.0;
 					};
+					EFA1E78424B14583005F6CB0 = {
+						CreatedOnToolsVersion = 12.0;
+					};
 					EFEFAEEB2499944B00CFBA67 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -311,6 +360,7 @@
 				EFA023A824A55BB6008B9456 /* Array Manupulation */,
 				EFA1E76224AE8F75005F6CB0 /* Arranging Coins */,
 				EFA1E77924B14445005F6CB0 /* Binary Tree Level Order Traversal II */,
+				EFA1E78424B14583005F6CB0 /* Prison Cells After N Days */,
 			);
 		};
 /* End PBXProject section */
@@ -337,6 +387,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFA1E77D24B14445005F6CB0 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA1E78124B14583005F6CB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA1E78824B14583005F6CB0 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +466,26 @@
 			name = Debug;
 		};
 		EFA1E77F24B14445005F6CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EFA1E78A24B14583005F6CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EFA1E78B24B14583005F6CB0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
@@ -592,6 +670,15 @@
 			buildConfigurations = (
 				EFA1E77E24B14445005F6CB0 /* Debug */,
 				EFA1E77F24B14445005F6CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA1E78924B14583005F6CB0 /* Build configuration list for PBXNativeTarget "Prison Cells After N Days" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA1E78A24B14583005F6CB0 /* Debug */,
+				EFA1E78B24B14583005F6CB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
