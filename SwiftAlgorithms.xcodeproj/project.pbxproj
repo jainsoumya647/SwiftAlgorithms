@@ -12,6 +12,7 @@
 		EFA1E77D24B14445005F6CB0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA1E77C24B14445005F6CB0 /* main.swift */; };
 		EFA1E78824B14583005F6CB0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA1E78724B14583005F6CB0 /* main.swift */; };
 		EFA1E79324B1465D005F6CB0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA1E79224B1465D005F6CB0 /* main.swift */; };
+		EFA1E79E24B283C8005F6CB0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA1E79D24B283C8005F6CB0 /* main.swift */; };
 		EFEFAEF02499944B00CFBA67 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEFAEEF2499944B00CFBA67 /* main.swift */; };
 		EFEFAEFD249ABF1800CFBA67 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEFAEFC249ABF1800CFBA67 /* main.swift */; };
 /* End PBXBuildFile section */
@@ -62,6 +63,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		EFA1E79924B283C8005F6CB0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		EFEFAEEA2499944B00CFBA67 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -93,6 +103,8 @@
 		EFA1E78724B14583005F6CB0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EFA1E79024B1465D005F6CB0 /* Ugly Number II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Ugly Number II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA1E79224B1465D005F6CB0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EFA1E79B24B283C8005F6CB0 /* Hamming Distance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Hamming Distance"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA1E79D24B283C8005F6CB0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EFEFAEEC2499944B00CFBA67 /* SwiftAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFEFAEEF2499944B00CFBA67 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EFEFAEFA249ABF1700CFBA67 /* Sparse Array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Sparse Array"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +141,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EFA1E78D24B1465D005F6CB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA1E79824B283C8005F6CB0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -192,6 +211,14 @@
 			path = "Ugly Number II";
 			sourceTree = "<group>";
 		};
+		EFA1E79C24B283C8005F6CB0 /* Hamming Distance */ = {
+			isa = PBXGroup;
+			children = (
+				EFA1E79D24B283C8005F6CB0 /* main.swift */,
+			);
+			path = "Hamming Distance";
+			sourceTree = "<group>";
+		};
 		EFEFAEE32499944B00CFBA67 = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +229,7 @@
 				EFA1E77B24B14445005F6CB0 /* Binary Tree Level Order Traversal II */,
 				EFA1E78624B14583005F6CB0 /* Prison Cells After N Days */,
 				EFA1E79124B1465D005F6CB0 /* Ugly Number II */,
+				EFA1E79C24B283C8005F6CB0 /* Hamming Distance */,
 				EFEFAEED2499944B00CFBA67 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -216,6 +244,7 @@
 				EFA1E77A24B14445005F6CB0 /* Binary Tree Level Order Traversal II */,
 				EFA1E78524B14583005F6CB0 /* Prison Cells After N Days */,
 				EFA1E79024B1465D005F6CB0 /* Ugly Number II */,
+				EFA1E79B24B283C8005F6CB0 /* Hamming Distance */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -324,6 +353,23 @@
 			productReference = EFA1E79024B1465D005F6CB0 /* Ugly Number II */;
 			productType = "com.apple.product-type.tool";
 		};
+		EFA1E79A24B283C8005F6CB0 /* Hamming Distance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA1E7A124B283C8005F6CB0 /* Build configuration list for PBXNativeTarget "Hamming Distance" */;
+			buildPhases = (
+				EFA1E79724B283C8005F6CB0 /* Sources */,
+				EFA1E79824B283C8005F6CB0 /* Frameworks */,
+				EFA1E79924B283C8005F6CB0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hamming Distance";
+			productName = "Hamming Distance";
+			productReference = EFA1E79B24B283C8005F6CB0 /* Hamming Distance */;
+			productType = "com.apple.product-type.tool";
+		};
 		EFEFAEEB2499944B00CFBA67 /* SwiftAlgorithms */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFEFAEF32499944B00CFBA67 /* Build configuration list for PBXNativeTarget "SwiftAlgorithms" */;
@@ -383,6 +429,9 @@
 					EFA1E78F24B1465D005F6CB0 = {
 						CreatedOnToolsVersion = 12.0;
 					};
+					EFA1E79A24B283C8005F6CB0 = {
+						CreatedOnToolsVersion = 12.0;
+					};
 					EFEFAEEB2499944B00CFBA67 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -411,6 +460,7 @@
 				EFA1E77924B14445005F6CB0 /* Binary Tree Level Order Traversal II */,
 				EFA1E78424B14583005F6CB0 /* Prison Cells After N Days */,
 				EFA1E78F24B1465D005F6CB0 /* Ugly Number II */,
+				EFA1E79A24B283C8005F6CB0 /* Hamming Distance */,
 			);
 		};
 /* End PBXProject section */
@@ -453,6 +503,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFA1E79324B1465D005F6CB0 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA1E79724B283C8005F6CB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA1E79E24B283C8005F6CB0 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,6 +622,26 @@
 			name = Debug;
 		};
 		EFA1E79624B1465D005F6CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EFA1E79F24B283C8005F6CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EFA1E7A024B283C8005F6CB0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
@@ -766,6 +844,15 @@
 			buildConfigurations = (
 				EFA1E79524B1465D005F6CB0 /* Debug */,
 				EFA1E79624B1465D005F6CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA1E7A124B283C8005F6CB0 /* Build configuration list for PBXNativeTarget "Hamming Distance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA1E79F24B283C8005F6CB0 /* Debug */,
+				EFA1E7A024B283C8005F6CB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
